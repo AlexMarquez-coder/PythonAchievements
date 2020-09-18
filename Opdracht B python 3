@@ -1,0 +1,168 @@
+Last login: Fri Sep 11 12:29:48 on ttys000
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+MacBook-Air-van-Alex:~ alexmarquez$ cd ..
+MacBook-Air-van-Alex:Users alexmarquez$ ls
+Guest		Shared		alexmarquez
+MacBook-Air-van-Alex:Users alexmarquez$ cd alexmarquez
+MacBook-Air-van-Alex:~ alexmarquez$ cd PythonAchievements
+MacBook-Air-van-Alex:PythonAchievements alexmarquez$ cd helloworld.py
+-bash: cd: helloworld.py: Not a directory
+MacBook-Air-van-Alex:PythonAchievements alexmarquez$ cd helloworld.py
+-bash: cd: helloworld.py: Not a directory
+MacBook-Air-van-Alex:PythonAchievements alexmarquez$ python3 helloworld.py
+Hello World
+MacBook-Air-van-Alex:PythonAchievements alexmarquez$ git init
+Reinitialized existing Git repository in /Users/alexmarquez/PythonAchievements/.git/
+MacBook-Air-van-Alex:PythonAchievements alexmarquez$ "/.git"
+-bash: /.git: No such file or directory
+MacBook-Air-van-Alex:PythonAchievements alexmarquez$ ls -a
+.				HelloYou.py
+..				Opdracht A python 3
+.DS_Store			helloworld.py
+.git				~$lloYou.docx
+Alex Marquez Loureço .rtf
+MacBook-Air-van-Alex:PythonAchievements alexmarquez$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	Alex Marquez Loureço .rtf
+	HelloYou.py
+	Opdracht A python 3
+	helloworld.py
+	~$lloYou.docx
+
+nothing added to commit but untracked files present (use "git add" to track)
+MacBook-Air-van-Alex:PythonAchievements alexmarquez$ git add helloworld.py
+MacBook-Air-van-Alex:PythonAchievements alexmarquez$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   helloworld.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	Alex Marquez Loureço .rtf
+	HelloYou.py
+	Opdracht A python 3
+	~$lloYou.docx
+
+MacBook-Air-van-Alex:PythonAchievements alexmarquez$ "commit"
+-bash: commit: command not found
+MacBook-Air-van-Alex:PythonAchievements alexmarquez$ helloworld.py
+-bash: helloworld.py: command not found
+MacBook-Air-van-Alex:PythonAchievements alexmarquez$ python3 helloworld.py
+Hello World
+MacBook-Air-van-Alex:PythonAchievements alexmarquez$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   helloworld.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	Alex Marquez Loureço .rtf
+	HelloYou.py
+	Opdracht A python 3
+	~$lloYou.docx
+
+MacBook-Air-van-Alex:PythonAchievements alexmarquez$ git add test.py
+MacBook-Air-van-Alex:PythonAchievements alexmarquez$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   helloworld.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	Alex Marquez Loureço .rtf
+	HelloYou.py
+	Opdracht A python 3
+	Test.py
+	helloworld2.py
+	~$lloYou.docx
+
+MacBook-Air-van-Alex:PythonAchievements alexmarquez$ git add Test.py
+MacBook-Air-van-Alex:PythonAchievements alexmarquez$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   Test.py
+	new file:   helloworld.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	Alex Marquez Loureço .rtf
+	HelloYou.py
+	Opdracht A python 3
+	helloworld2.py
+	~$lloYou.docx
+
+MacBook-Air-van-Alex:PythonAchievements alexmarquez$ git commit ‐m “omschrijving”
+error: pathspec '‐m' did not match any file(s) known to git.
+error: pathspec '“omschrijving”' did not match any file(s) known to git.
+MacBook-Air-van-Alex:PythonAchievements alexmarquez$ git commit -m "test"
+[master (root-commit) 10cc658] test
+ Committer: Alex Marquez <alexmarquez@MacBook-Air-van-Alex.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 2 insertions(+)
+ create mode 100644 Test.py
+ create mode 100644 helloworld.py
+MacBook-Air-van-Alex:PythonAchievements alexmarquez$ commit message
+-bash: commit: command not found
+MacBook-Air-van-Alex:PythonAchievements alexmarquez$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	Alex Marquez Loureço .rtf
+	HelloYou.py
+	Opdracht A python 3
+	helloworld2.py
+	~$lloYou.docx
+
+nothing added to commit but untracked files present (use "git add" to track)
+MacBook-Air-van-Alex:PythonAchievements alexmarquez$ git log
+commit 10cc65801e23d752b864cd75b5058c9d528cb8d8 (HEAD -> master)
+Author: Alex Marquez <alexmarquez@MacBook-Air-van-Alex.local>
+Date:   Fri Sep 11 13:12:37 2020 +0200
+
+    test
+MacBook-Air-van-Alex:PythonAchievements alexmarquez$ 

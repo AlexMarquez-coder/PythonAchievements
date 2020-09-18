@@ -1,0 +1,63 @@
+Last login: Fri Sep 11 11:39:37 on ttys000
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+MacBook-Air-van-Alex:~ alexmarquez$ cd ..
+MacBook-Air-van-Alex:Users alexmarquez$ ls
+Guest		Shared		alexmarquez
+MacBook-Air-van-Alex:Users alexmarquez$ cd HelloWorld
+-bash: cd: HelloWorld: No such file or directory
+MacBook-Air-van-Alex:Users alexmarquez$ cd PythonAchievements
+-bash: cd: PythonAchievements: No such file or directory
+MacBook-Air-van-Alex:Users alexmarquez$ ls
+Guest		Shared		alexmarquez
+MacBook-Air-van-Alex:Users alexmarquez$ cd alexmarquez
+MacBook-Air-van-Alex:~ alexmarquez$ cd PythonAchievements
+MacBook-Air-van-Alex:PythonAchievements alexmarquez$ python3 HelloWorld.py
+  File "HelloWorld.py", line 1
+    {\rtf1\ansi\ansicpg1252\cocoartf2511
+                                       ^
+SyntaxError: unexpected character after line continuation character
+MacBook-Air-van-Alex:PythonAchievements alexmarquez$ helloworld
+-bash: helloworld: command not found
+MacBook-Air-van-Alex:PythonAchievements alexmarquez$ ls
+Alex Marquez Loureço .rtf	HelloYou.py			helloworld.py			~$lloYou.docx
+MacBook-Air-van-Alex:PythonAchievements alexmarquez$ cd PythonAchievements
+-bash: cd: PythonAchievements: No such file or directory
+MacBook-Air-van-Alex:PythonAchievements alexmarquez$ python3 helloworld.py
+  File "helloworld.py", line 1
+    print Hello World 
+          ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(Hello World)?
+MacBook-Air-van-Alex:PythonAchievements alexmarquez$ python3 helloworld.py
+  File "helloworld.py", line 1
+    print Hello World 
+          ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(Hello World)?
+MacBook-Air-van-Alex:PythonAchievements alexmarquez$ python3 helloworld.py
+  File "helloworld.py", line 1
+    print Hello World 
+          ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(Hello World)?
+MacBook-Air-van-Alex:PythonAchievements alexmarquez$ ls
+Alex Marquez Loureço .rtf	HelloYou.py			helloworld.py			~$lloYou.docx
+MacBook-Air-van-Alex:PythonAchievements alexmarquez$ python3 helloworld.py
+Hello World
+MacBook-Air-van-Alex:PythonAchievements alexmarquez$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

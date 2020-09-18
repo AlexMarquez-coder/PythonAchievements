@@ -1,0 +1,53 @@
+Last login: Wed Sep 16 11:57:03 on ttys000
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+MacBook-Air-van-Alex:~ alexmarquez$ cd users
+-bash: cd: users: No such file or directory
+MacBook-Air-van-Alex:~ alexmarquez$ ls
+26305@ma-web.nl Creative Cloud Files
+Applications
+Creative Cloud Files
+Desktop
+Documents
+Downloads
+Library
+Movies
+Music
+Pictures
+Public
+PythonAchievements
+Samsung
+debriefing.txt
+f1m1
+marquezworld@gmail.com Creative Cloud Files
+MacBook-Air-van-Alex:~ alexmarquez$ cd PythonPythonAchievemenPytho
+-bash: cd: PythonPythonAchievemenPytho: No such file or directory
+MacBook-Air-van-Alex:~ alexmarquez$ cd PythonAchievements
+MacBook-Air-van-Alex:PythonAchievements alexmarquez$ test.py
+-bash: test.py: command not found
+MacBook-Air-van-Alex:PythonAchievements alexmarquez$ Test.py
+-bash: Test.py: command not found
+MacBook-Air-van-Alex:PythonAchievements alexmarquez$ print hello you
+-bash: print: command not found
+MacBook-Air-van-Alex:PythonAchievements alexmarquez$ cd test.py
+-bash: cd: test.py: Not a directory
+MacBook-Air-van-Alex:PythonAchievements alexmarquez$ ls
+Alex Marquez Loureço .rtf	Test.py
+HelloYou.py			helloworld.py
+Opdracht A python 3		helloworld2.py
+Opdracht B python 3		~$lloYou.docx
+MacBook-Air-van-Alex:PythonAchievements alexmarquez$ Test.py
+-bash: Test.py: command not found
+MacBook-Air-van-Alex:PythonAchievements alexmarquez$ /Users/alexmarquez/PythonAchievements/Test.py 
+-bash: /Users/alexmarquez/PythonAchievements/Test.py: Permission denied
+MacBook-Air-van-Alex:PythonAchievements alexmarquez$ python3 Test.py
+Alex
+MacBook-Air-van-Alex:PythonAchievements alexmarquez$ python3 Test.py
+dit ben ik
+MacBook-Air-van-Alex:PythonAchievements alexmarquez$ python3 Test.py
+Hallo
+Hoe heet jij?    
+Hallo  Welkom
+MacBook-Air-van-Alex:PythonAchievements alexmarquez$ 
