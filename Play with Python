@@ -1,0 +1,63 @@
+Last login: Fri Sep 18 12:29:10 on ttys000
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+MacBook-Air-van-Alex:~ alexmarquez$ python3
+Python 3.8.5 (v3.8.5:580fbb018f, Jul 20 2020, 12:11:27) 
+[Clang 6.0 (clang-600.0.57)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 2+2
+4
+>>> 3 * 10
+30
+>>> 100 - 10
+90
+>>> 25 / 5
+5.0
+>>> 10 / 3
+3.3333333333333335
+>>> 10 // 3
+3
+>>> print('Mijn naam is <Alex>')
+Mijn naam is <Alex>
+>>> naam = "Alex"
+>>> print(naam)
+Alex
+>>> print(naam.upper())
+ALEX
+>>> print(naam[0:2])
+Al
+>>> print(naam[::-1])
+xelA
+>>> leeftijd = 20
+>>> print('Hallo ' + naam ' ben je al ' + str(leeftijd) + ' jaar ?')
+  File "<stdin>", line 1
+    print('Hallo ' + naam ' ben je al ' + str(leeftijd) + ' jaar ?')
+                          ^
+SyntaxError: invalid syntax
+>>> print('Hallo ' + naam ' ben je al ' + str(leeftijd) + ' jaar?')
+  File "<stdin>", line 1
+    print('Hallo ' + naam ' ben je al ' + str(leeftijd) + ' jaar?')
+                          ^
+SyntaxError: invalid syntax
+>>> print('Hallo " + naam + " ben je al " + str(leeftijd) + " jaar?")
+  File "<stdin>", line 1
+    print('Hallo " + naam + " ben je al " + str(leeftijd) + " jaar?")
+                                                                    ^
+SyntaxError: EOL while scanning string literal
+>>> print("Hallo " + naam + " ben je al " + str(leeftijd) + " jaar?")
+Hallo Alex ben je al 20 jaar?
+>>> leeftijd = 20
+>>> print("Hallo " + naam + " ben je al " + str(leeftijd) + " jaar?")
+Hallo Alex ben je al 20 jaar?
+>>> leeftijd = + 5
+>>> leeftijd
+5
+>>> leeftijd = + 5
+>>> leeftijd
+
+
+
+
+
