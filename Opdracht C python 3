@@ -1,0 +1,93 @@
+Last login: Fri Sep 18 11:34:35 on ttys000
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+MacBook-Air-van-Alex:PythonAchievements alexmarquez$ gir status
+-bash: gir: command not found
+MacBook-Air-van-Alex:PythonAchievements alexmarquez$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   Test.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	Alex Marquez Loureço .rtf
+	HelloYou.py
+	Opdracht A python 3
+	Opdracht B python 3
+	Praten op IDLE via Terminal
+	Praten op IDLE via Terminal 123
+	helloworld2.py
+	~$lloYou.docx
+
+no changes added to commit (use "git add" and/or "git commit -a")
+MacBook-Air-van-Alex:PythonAchievements alexmarquez$ git pull
+fatal: No remote repository specified.  Please, specify either a URL or a
+remote name from which new revisions should be fetched.
+MacBook-Air-van-Alex:PythonAchievements alexmarquez$ git remote add origin https://github.com/AlexMarquez-coder/PythonAchievements.git
+MacBook-Air-van-Alex:PythonAchievements alexmarquez$ git push -u origin master
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 302 bytes | 302.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/AlexMarquez-coder/PythonAchievements.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+MacBook-Air-van-Alex:PythonAchievements alexmarquez$ git add .
+MacBook-Air-van-Alex:PythonAchievements alexmarquez$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   Alex Marquez Loureço .rtf
+	new file:   HelloYou.py
+	new file:   Opdracht A python 3
+	new file:   Opdracht B python 3
+	new file:   Praten op IDLE via Terminal
+	new file:   Praten op IDLE via Terminal 123
+	modified:   Test.py
+	new file:   helloworld2.py
+	new file:   ~$lloYou.docx
+
+MacBook-Air-van-Alex:PythonAchievements alexmarquez$ git commit -m "Bestanden toevoegen"
+[master ac1d02a] Bestanden toevoegen
+ Committer: Alex Marquez <alexmarquez@MacBook-Air-van-Alex.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 9 files changed, 448 insertions(+), 1 deletion(-)
+ create mode 100644 Alex Marquez Loureço .rtf
+ create mode 100644 HelloYou.py
+ create mode 100644 Opdracht A python 3
+ create mode 100644 Opdracht B python 3
+ create mode 100644 Praten op IDLE via Terminal
+ create mode 100644 Praten op IDLE via Terminal 123
+ create mode 100644 helloworld2.py
+ create mode 100644 ~$lloYou.docx
+MacBook-Air-van-Alex:PythonAchievements alexmarquez$ git push
+Counting objects: 10, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (10/10), 4.12 KiB | 1.03 MiB/s, done.
+Total 10 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/AlexMarquez-coder/PythonAchievements.git
+   10cc658..ac1d02a  master -> master
+MacBook-Air-van-Alex:PythonAchievements alexmarquez$ 
